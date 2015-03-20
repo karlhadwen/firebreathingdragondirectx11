@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f67d4316-5e1e-474f-b8e5-7334e0f4e32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX">
+      <UniqueIdentifier>{5ac6aea2-5461-479c-a749-6c3bd9cad56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX\TexturedShader">
+      <UniqueIdentifier>{a9dd07f6-a94a-477f-8508-e8ea57fed705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{1d94b693-8add-4b53-aff2-878e0f2e66f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX\CubeMapShader">
+      <UniqueIdentifier>{adb12378-f1c6-44f7-a6c4-c95371c170a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX\ParticleShader">
+      <UniqueIdentifier>{cb5ebf94-f0a5-4fa0-baec-aa3502160bab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJReader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11VertexBuffer.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11Shader.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11Renderer.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11Buffer.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11Texture.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11TexturedShader.h">
+      <Filter>Engine\DirectX\TexturedShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexFormats.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJVertexBufferBuilder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11OBJRenderer.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJEntity.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisHelper.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11CubeMapShader.h">
+      <Filter>Engine\DirectX\CubeMapShader</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11IndexBuffer.h">
+      <Filter>Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11ParticleShader.h">
+      <Filter>Engine\DirectX\ParticleShader</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJReader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11Shader.cpp">
+      <Filter>Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11Renderer.cpp">
+      <Filter>Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11TexturedShader.cpp">
+      <Filter>Engine\DirectX\TexturedShader</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11CubeMapShader.cpp">
+      <Filter>Engine\DirectX\CubeMapShader</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11ParticleShader.cpp">
+      <Filter>Engine\DirectX\ParticleShader</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJEntity.cpp">
+      <Filter>Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="TexturedPixelShader.hlsl">
+      <Filter>Engine\DirectX\TexturedShader</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturedVertexShader.hlsl">
+      <Filter>Engine\DirectX\TexturedShader</Filter>
+    </FxCompile>
+    <FxCompile Include="CubeMapVertexShader.hlsl">
+      <Filter>Engine\DirectX\CubeMapShader</Filter>
+    </FxCompile>
+    <FxCompile Include="CubeMapPixelShader.hlsl">
+      <Filter>Engine\DirectX\CubeMapShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVertexShader.hlsl">
+      <Filter>Engine\DirectX\ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePixelShader.hlsl">
+      <Filter>Engine\DirectX\ParticleShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleGeometryShader.hlsl">
+      <Filter>Engine\DirectX\ParticleShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
